@@ -33,9 +33,16 @@
 
 .enemy{
     background-image: url("../imgs/ralph.png");
+    background-size: cover;
 }
+
 .menu-lives {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.menu-time h2:nth-child(2),
+.menu-score h2:nth-child(2){
+    margin-top: 1rem;
 }
